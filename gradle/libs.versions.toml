@@ -1,4 +1,5 @@
 [versions]
+accompanistPermissions = "0.31.1-alpha"
 agp = "8.8.0"
 datastorePreferences = "1.1.2"
 kotlin = "2.0.0"
@@ -13,6 +14,7 @@ mapsMobile = "4.10.1-lite"
 navigationCompose = "2.8.7"
 
 [libraries]
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissions" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
